@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
   <link rel="stylesheet" href="stylesheet.css">
 </head>
@@ -56,15 +56,17 @@
           I am a Research Scientist in the <a href="https://research.nvidia.com/labs/genair/" target="_blank">Fundamental Generative AI Research (GenAIR) Group</a>
           at <a href="https://research.nvidia.com/" target="_blank">NVIDIA Research</a>,
           supervised by <a href="http://latentspace.cc/" target="_blank">Arash Vahdat</a>.
+          At NVIDIA, I contribute to the <strong><a href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">Proteina</a></strong> generative model suite for protein structure design,
+          and proposed <strong><a href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">Complexa</a></strong>, a generative protein binder design model with successful wet-lab validation.
+          My research interests focus on developing <strong>biological foundation models</strong>, especially for proteins,
+          from the perspectives of both representation learning and generative modeling.
+          I also have a general interest in AI4Science and machine learning techniques,
+          including deep generative models, geometric deep learning, and self-supervised learning.
+        </p>
+        <p class="profile-bio">
           I received my Ph.D. in Computer Science from <a href="https://mila.quebec/" target="_blank">Mila – Québec AI Institute</a>
           and <a href="https://www.umontreal.ca/" target="_blank">Université de Montréal</a> in 2026,
           advised by Prof. <a href="https://jian-tang.com/" target="_blank">Jian Tang</a>.
-          My research focuses on <strong>deep generative models for protein structure design</strong>,
-          protein representation learning, and AI-driven drug discovery.
-          At NVIDIA, I contribute to the <strong><a href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">Proteina</a></strong> generative model suite for protein structure design,
-          and proposed <strong><a href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">Complexa</a></strong>, a generative protein binder design model with successful wet-lab validation.
-        </p>
-        <p class="profile-bio">
           I received my B.S. in Computer Science (Honor Class) from
           <a href="https://www.fudan.edu.cn/" target="_blank">Fudan University</a> in 2021,
           advised by Prof. <a href="https://homepage.fudan.edu.cn/zhangzz/" target="_blank">Zhongzhi Zhang</a>.
@@ -133,148 +135,178 @@
 
         <!-- Proteina-Complexa -->
         <div class="pub-card">
-          <span class="pub-venue">ICLR 2026 &middot; Oral</span>
-          <div class="pub-title">
-            <a href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">
-              Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute
-            </a>
-          </div>
-          <div class="pub-authors">
-            Kieran Didi*, <strong>Zuobai Zhang*</strong>, Guoqing Zhou*, Danny Reidenbach*, Zhonglin Cao*, Sooyoung Cha*,
-            Tomas Geffner, Christian Dallago, Jian Tang, Michael M. Bronstein, Martin Steinegger,
-            Emine Kucukbenli, Arash Vahdat, Karsten Kreis
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">Project</a>
-            <a class="pub-link" href="https://openreview.net/forum?id=qmCpJtFZra" target="_blank">Paper</a>
-            <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/proteina-complexa" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_complexa.jpg" alt="Proteina-Complexa thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">ICLR 2026 &middot; Oral</span>
+            <div class="pub-title">
+              <a href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">
+                Scaling Atomistic Protein Binder Design with Generative Pretraining and Test-Time Compute
+              </a>
+            </div>
+            <div class="pub-authors">
+              Kieran Didi*, <strong>Zuobai Zhang*</strong>, Guoqing Zhou*, Danny Reidenbach*, Zhonglin Cao*, Sooyoung Cha*,
+              Tomas Geffner, Christian Dallago, Jian Tang, Michael M. Bronstein, Martin Steinegger,
+              Emine Kucukbenli, Arash Vahdat, Karsten Kreis
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://research.nvidia.com/labs/genair/proteina-complexa/" target="_blank">Project</a>
+              <a class="pub-link" href="https://openreview.net/forum?id=qmCpJtFZra" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2603.27950" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/proteina-complexa" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- La-Proteina -->
         <div class="pub-card">
-          <span class="pub-venue">ICLR 2026</span>
-          <div class="pub-title">
-            <a href="https://arxiv.org/abs/2507.09466" target="_blank">
-              La-Prote&iacute;n&aacute;: Atomistic Protein Generation via Partially Latent Flow Matching
-            </a>
-          </div>
-          <div class="pub-authors">
-            Tomas Geffner*, Kieran Didi*, Zhonglin Cao, Danny Reidenbach, <strong>Zuobai Zhang</strong>,
-            Christian Dallago, Emine Kucukbenli, Karsten Kreis, Arash Vahdat
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://arxiv.org/abs/2507.09466" target="_blank">arXiv</a>
-            <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/la-proteina" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_laproteina.png" alt="La-Proteína thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">ICLR 2026</span>
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2507.09466" target="_blank">
+                La-Prote&iacute;n&aacute;: Atomistic Protein Generation via Partially Latent Flow Matching
+              </a>
+            </div>
+            <div class="pub-authors">
+              Tomas Geffner*, Kieran Didi*, Zhonglin Cao, Danny Reidenbach, <strong>Zuobai Zhang</strong>,
+              Christian Dallago, Emine Kucukbenli, Karsten Kreis, Arash Vahdat
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://openreview.net/forum?id=RDerF20JYT" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2507.09466" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/la-proteina" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- Proteina-Atomistica -->
         <div class="pub-card">
-          <span class="pub-venue">Preprint 2025</span>
-          <div class="pub-title">
-            <a href="https://arxiv.org/abs/2512.01976" target="_blank">
-              Consistent Synthetic Sequences Unlock Structural Diversity in Fully Atomistic De Novo Protein Design
-            </a>
-          </div>
-          <div class="pub-authors">
-            Danny Reidenbach*, Zhonglin Cao*, <strong>Zuobai Zhang*</strong>, Kieran Didi,
-            Tomas Geffner, Guoqing Zhou, Jian Tang, Christian Dallago, Arash Vahdat,
-            Emine Kucukbenli, Karsten Kreis
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://arxiv.org/abs/2512.01976" target="_blank">arXiv</a>
+          <img class="pub-thumb" src="images/thumb_atomistica.png" alt="Proteina-Atomistica thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">Preprint 2025</span>
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2512.01976" target="_blank">
+                Consistent Synthetic Sequences Unlock Structural Diversity in Fully Atomistic De Novo Protein Design
+              </a>
+            </div>
+            <div class="pub-authors">
+              Danny Reidenbach*, Zhonglin Cao*, <strong>Zuobai Zhang*</strong>, Kieran Didi,
+              Tomas Geffner, Guoqing Zhou, Jian Tang, Christian Dallago, Arash Vahdat,
+              Emine Kucukbenli, Karsten Kreis
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://arxiv.org/abs/2512.01976" target="_blank">arXiv</a>
+            </div>
           </div>
         </div>
 
         <!-- Proteina -->
         <div class="pub-card">
-          <span class="pub-venue">ICLR 2025 &middot; Oral</span>
-          <div class="pub-title">
-            <a href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">
-              Prote&iacute;n&aacute;: Scaling Flow-based Protein Structure Generative Models
-            </a>
-          </div>
-          <div class="pub-authors">
-            Tomas Geffner*, Kieran Didi*, <strong>Zuobai Zhang*</strong>, Danny Reidenbach, Zhonglin Cao,
-            Jason Yim, Mario Geiger, Christian Dallago, Emine Kucukbenli, Arash Vahdat, Karsten Kreis*
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">Project</a>
-            <a class="pub-link" href="https://arxiv.org/abs/2503.00710" target="_blank">arXiv</a>
-            <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/proteina" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_proteina.png" alt="Proteína thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">ICLR 2025 &middot; Oral</span>
+            <div class="pub-title">
+              <a href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">
+                Prote&iacute;n&aacute;: Scaling Flow-based Protein Structure Generative Models
+              </a>
+            </div>
+            <div class="pub-authors">
+              Tomas Geffner*, Kieran Didi*, <strong>Zuobai Zhang*</strong>, Danny Reidenbach, Zhonglin Cao,
+              Jason Yim, Mario Geiger, Christian Dallago, Emine Kucukbenli, Arash Vahdat, Karsten Kreis*
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://research.nvidia.com/labs/genair/proteina/" target="_blank">Project</a>
+              <a class="pub-link" href="https://openreview.net/forum?id=TVQLu34bdw" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2503.00710" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/NVIDIA-Digital-Bio/proteina" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- GearBind -->
         <div class="pub-card">
-          <span class="pub-venue">Nature Communications 2024</span>
-          <div class="pub-title">
-            <a href="https://www.nature.com/articles/s41467-024-51563-8" target="_blank">
-              Pretrainable Geometric Graph Neural Network for Antibody Affinity Maturation
-            </a>
-          </div>
-          <div class="pub-authors">
-            Huiyu Cai*, <strong>Zuobai Zhang*</strong>, Mingkai Wang*, Bozitao Zhong*,
-            Yanling Wu, Tianlei Ying, Jian Tang
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://www.nature.com/articles/s41467-024-51563-8" target="_blank">Paper</a>
-            <a class="pub-link" href="https://www.biorxiv.org/content/10.1101/2023.08.10.552845v4" target="_blank">bioRxiv</a>
-            <a class="pub-link" href="https://github.com/DeepGraphLearning/GearBind" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_gearbind.png" alt="GearBind thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">Nature Communications 2024</span>
+            <div class="pub-title">
+              <a href="https://www.nature.com/articles/s41467-024-51563-8" target="_blank">
+                Pretrainable Geometric Graph Neural Network for Antibody Affinity Maturation
+              </a>
+            </div>
+            <div class="pub-authors">
+              Huiyu Cai*, <strong>Zuobai Zhang*</strong>, Mingkai Wang*, Bozitao Zhong*,
+              Yanling Wu, Tianlei Ying, Jian Tang
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://www.nature.com/articles/s41467-024-51563-8" target="_blank">Paper</a>
+              <a class="pub-link" href="https://www.biorxiv.org/content/10.1101/2023.08.10.552845v4" target="_blank">bioRxiv</a>
+              <a class="pub-link" href="https://github.com/DeepGraphLearning/GearBind" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- SiamDiff -->
         <div class="pub-card">
-          <span class="pub-venue">NeurIPS 2023 &middot; Spotlight</span>
-          <div class="pub-title">
-            <a href="https://arxiv.org/abs/2301.12068" target="_blank">
-              Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
-            </a>
-          </div>
-          <div class="pub-authors">
-            <strong>Zuobai Zhang*</strong>, Minghao Xu*, Aur&eacute;lie Lozano,
-            Vijil Chenthamarakshan, Payel Das, Jian Tang
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://arxiv.org/abs/2301.12068" target="_blank">arXiv</a>
-            <a class="pub-link" href="https://github.com/DeepGraphLearning/SiamDiff" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_siamdiff.png" alt="SiamDiff thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">NeurIPS 2023 &middot; Spotlight</span>
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2301.12068" target="_blank">
+                Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction
+              </a>
+            </div>
+            <div class="pub-authors">
+              <strong>Zuobai Zhang*</strong>, Minghao Xu*, Aur&eacute;lie Lozano,
+              Vijil Chenthamarakshan, Payel Das, Jian Tang
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://papers.neurips.cc/paper_files/paper/2023/hash/873c86d9a979ab80d8e2919510d4446b-Abstract-Conference.html" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2301.12068" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/DeepGraphLearning/SiamDiff" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- DiffPack -->
         <div class="pub-card">
-          <span class="pub-venue">NeurIPS 2023</span>
-          <div class="pub-title">
-            <a href="https://arxiv.org/abs/2306.01794" target="_blank">
-              DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
-            </a>
-          </div>
-          <div class="pub-authors">
-            Yangtian Zhang*, <strong>Zuobai Zhang*</strong>, Bozitao Zhong, Sanchit Misra, Jian Tang
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://arxiv.org/abs/2306.01794" target="_blank">arXiv</a>
-            <a class="pub-link" href="https://github.com/DeepGraphLearning/DiffPack" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_diffpack.png" alt="DiffPack thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">NeurIPS 2023</span>
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2306.01794" target="_blank">
+                DiffPack: A Torsional Diffusion Model for Autoregressive Protein Side-Chain Packing
+              </a>
+            </div>
+            <div class="pub-authors">
+              Yangtian Zhang*, <strong>Zuobai Zhang*</strong>, Bozitao Zhong, Sanchit Misra, Jian Tang
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://papers.neurips.cc/paper_files/paper/2023/hash/96a54c09569ebbdd9ecb22f5012e6b66-Abstract-Conference.html" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2306.01794" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/DeepGraphLearning/DiffPack" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
         <!-- GearNet -->
         <div class="pub-card">
-          <span class="pub-venue">ICLR 2023</span>
-          <div class="pub-title">
-            <a href="https://arxiv.org/abs/2203.06125" target="_blank">
-              Protein Representation Learning by Geometric Structure Pretraining
-            </a>
-          </div>
-          <div class="pub-authors">
-            <strong>Zuobai Zhang</strong>, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan,
-            Aurelie Lozano, Payel Das, Jian Tang
-          </div>
-          <div class="pub-links">
-            <a class="pub-link" href="https://arxiv.org/abs/2203.06125" target="_blank">arXiv</a>
-            <a class="pub-link" href="https://github.com/DeepGraphLearning/GearNet" target="_blank">Code</a>
+          <img class="pub-thumb" src="images/thumb_gearnet.png" alt="GearNet thumbnail">
+          <div class="pub-content">
+            <span class="pub-venue">ICLR 2023</span>
+            <div class="pub-title">
+              <a href="https://arxiv.org/abs/2203.06125" target="_blank">
+                Protein Representation Learning by Geometric Structure Pretraining
+              </a>
+            </div>
+            <div class="pub-authors">
+              <strong>Zuobai Zhang</strong>, Minghao Xu, Arian Jamasb, Vijil Chenthamarakshan,
+              Aurelie Lozano, Payel Das, Jian Tang
+            </div>
+            <div class="pub-links">
+              <a class="pub-link" href="https://openreview.net/forum?id=to3qCB3tOh9" target="_blank">Paper</a>
+              <a class="pub-link" href="https://arxiv.org/abs/2203.06125" target="_blank">arXiv</a>
+              <a class="pub-link" href="https://github.com/DeepGraphLearning/GearNet" target="_blank">Code</a>
+            </div>
           </div>
         </div>
 
