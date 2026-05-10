@@ -114,6 +114,10 @@ section { padding-top: 56px; }
 
 .profile-photo {
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
 }
 
 .profile-photo img {
@@ -157,13 +161,15 @@ section { padding-top: 56px; }
 
 .social-links {
   display: flex;
-  gap: 14px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
 }
 
 .social-btn {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
   font-size: 13px;
   font-weight: 500;
@@ -346,7 +352,6 @@ footer a:hover { color: var(--accent); }
    ============================================================ */
 @media (max-width: 620px) {
   #about { flex-direction: column; align-items: center; text-align: center; gap: 24px; }
-  .social-links { justify-content: center; }
   .nav-links { gap: 16px; }
   .award-item { flex-direction: column; gap: 2px; }
   .award-date { font-size: 12px; }
